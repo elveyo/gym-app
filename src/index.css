@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+.category::-webkit-scrollbar {
+  background-color: rgb(199, 199, 199);
+  height: 3px;
+  margin-top: 10px;
+  scroll-behavior: smooth;
+}
+.category::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+.explore-exercises {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 10px 5px;
+  margin-top: 30px;
+  font-size: 1em;
+  width: 30%;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.explore-exercises:hover {
+  color: white;
+  background-color: black;
+}
+.logo {
+  position: absolute;
+  top: 5%;
+  width: 70px;
+  height: 70px;
+}
+.search {
+  padding: 15px 10px;
+  border: 1px solid grey;
+  font-size: 19px;
+  width: 30%;
+}
+.search:focus {
+  outline: 0;
+}
+
+.category {
+  justify-content: flex-start;
+}
+
+.paginate {
+  width: 50%;
+  justify-content: space-around;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.bodypart,
+.categoryCard {
+  width: 50%;
+  height: 50px;
+  padding: 8px 18px;
+  margin: 0 10px;
+  background-color: #100720;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.trainer {
+  width: 40%;
+  height: 30%;
+}
+.categoryCard {
+  background-color: white;
+  border: 2px solid #100720;
+  color: #100720;
+}
+.exercisePic {
+  height: 100vh;
+  width: 60%;
+}
+@media only screen and (max-width: 1200px) {
+  .exercisePic {
+    height: 80vh;
+    width: 90%;
+    border: none;
+    border-radius: 0;
+  }
+  .trainer {
+    position: absolute;
+
+    bottom: -10px;
+    width: 55%;
+    height: 30%;
+  }
+  .logo {
+    left: 5%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .exercisePic {
+    height: 80vh;
+    width: 90%;
+    border: none;
+    border-radius: 0;
+  }
+  .trainer {
+    position: absolute;
+
+    bottom: 0;
+    width: 85%;
+    height: 20%;
+  }
+  .logo {
+    left: 5%;
+  }
+  .search {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 3000px) {
+  .category {
+    justify-content: flex-start;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  .category {
+    justify-content: center;
+  }
+}
