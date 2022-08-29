@@ -110,7 +110,7 @@ a {
 }
 @media only screen and (max-width: 500px) {
   .exercisePic {
-    height: 80vh;
+    height: 60vh;
     width: 90%;
     border: none;
     border-radius: 0;
