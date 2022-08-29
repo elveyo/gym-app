@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/gym-app/static/css/main.05406ad8.css",
+    "main.js": "/gym-app/static/js/main.5964ce6e.js",
+    "static/media/man.png": "/gym-app/static/media/man.de298382a01f00e7594e.png",
+    "static/media/bucica.png": "/gym-app/static/media/bucica.08762fc59acf2b8df3da.png",
+    "static/media/bottle.png": "/gym-app/static/media/bottle.62e1df7d98027cec650a.png",
+    "static/media/cardio.png": "/gym-app/static/media/cardio.963d74ae0d63ef3eba09.png",
+    "static/media/waist.png": "/gym-app/static/media/waist.350a6978a2c1da31a5fe.png",
+    "static/media/lower arms.png": "/gym-app/static/media/lower arms.96e3adf733d56d83ec0b.png",
+    "static/media/upper arms.png": "/gym-app/static/media/upper arms.bde7a2ec63468f46a995.png",
+    "static/media/upper legs.png": "/gym-app/static/media/upper legs.208ce8a6f9319c3eabae.png",
+    "static/media/ghost.png": "/gym-app/static/media/ghost.c2b28fae40dc7c813312.png",
+    "static/media/back.png": "/gym-app/static/media/back.d4630186ff9516b59613.png",
+    "static/media/shoulders.png": "/gym-app/static/media/shoulders.972b48ed57022384ea14.png",
+    "static/media/neck.png": "/gym-app/static/media/neck.c63d9b7747c5b13b035f.png",
+    "static/media/lower legs.png": "/gym-app/static/media/lower legs.81f6b59cce85ec21bcb2.png",
+    "static/media/chest.png": "/gym-app/static/media/chest.3281ab40728481aede3d.png",
+    "index.html": "/gym-app/index.html",
+    "main.05406ad8.css.map": "/gym-app/static/css/main.05406ad8.css.map",
+    "main.5964ce6e.js.map": "/gym-app/static/js/main.5964ce6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05406ad8.css",
+    "static/js/main.5964ce6e.js"
+  ]
+}
