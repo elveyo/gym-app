@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Typography, Stack } from "@mui/material";
 import { exerciseState } from "../utils/ExerciseState";
 
-const ExerciseOverview = () => {
+const ExerciseOverview = ({ similarExRef, videosRef }) => {
   const { exercise } = exerciseState.getState();
 
   return (
@@ -63,8 +63,22 @@ const ExerciseOverview = () => {
               textTransform: "uppercase",
             }}
           >
-            <div className="bodypart">Similar exercises</div>
-            <div className="categoryCard">Videos</div>
+            <div
+              className="bodypart"
+              onClick={() =>
+                similarExRef.current.scrollIntoView({ behavior: "smooth" })
+              }
+            >
+              Similar exercises
+            </div>
+            <div
+              className="categoryCard"
+              onClick={() =>
+                videosRef.current.scrollIntoView({ behavior: "smooth" })
+              }
+            >
+              Videos
+            </div>
           </Stack>
         </Stack>
       </Stack>

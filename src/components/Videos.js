@@ -1,9 +1,10 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { Box, Typography, Stack } from "@mui/material";
 import VideoCard from "./VideoCard.js";
-const Videos = ({ videos }) => {
+const Videos = forwardRef(({ videos }, ref) => {
   return (
     <Box
+      ref={ref}
       sx={{
         width: "100%",
         height: "auto",
@@ -41,6 +42,6 @@ const Videos = ({ videos }) => {
       </Box>
     </Box>
   );
-};
+});
 
 export default Videos;
